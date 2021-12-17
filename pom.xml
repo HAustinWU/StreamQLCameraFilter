@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>1</groupId>
+  <artifactId>1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>PLFinalMaven</name>
+  <description>PL Final Project</description>
+  
+  <repositories>
+	<repository>
+		<id>OpenIMAJ maven releases repository</id>
+		<url>http://maven.openimaj.org</url>
+	</repository>
+    <repository>
+		<id>OpenIMAJ maven snapshots repository</id>
+		<url>http://snapshots.openimaj.org</url>
+	</repository>
+	<repository>
+		<id>Sonatype OSS Snapshot Repository</id>
+		<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+	</repository>
+  </repositories>
+
+  <dependencies>
+  	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>3.12.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.github.sarxos</groupId>
+		<artifactId>webcam-capture</artifactId>
+		<version>0.3.13-SNAPSHOT</version>
+	</dependency>
+  	<dependency>
+	    <groupId>com.github.sarxos</groupId>
+	    <artifactId>webcam-capture-driver-openimaj</artifactId>
+	    <version>0.3.12</version>
+	</dependency>
+	<dependency>
+	  <groupId>com.github.sarxos</groupId>
+	  <artifactId>webcam-capture</artifactId>
+	  <version>0.3.12</version>
+	</dependency>
+  </dependencies>
+  
+</project>
